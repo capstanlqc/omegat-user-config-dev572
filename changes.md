@@ -1,5 +1,10 @@
 # OmegaT (v5.7.3) customization
 
+## Update 131_cs0 (2025-01-15)
+
+* Script: Updated `checkOMTversion.groovy` to close the project after prompt to the user
+* Script: Updated `pisa25math.groovy` script to handle math letters HELP and some Math units (not just any file)
+
 ## Update 130_cs0 (2024-12-13)
 
 * Config: Temporarily removed omegat.prefs
@@ -18,7 +23,7 @@
 ## Update 127_cs0 (2024-11-28)
 
 * Script: Updated `md2html.groovy` script to add underlining using HTML rather than CSS
-* Script: Updated `pisa25cdata.groovy` script to handle math letters in any unit, not only HELP
+* Script: Updated `pisa25math.groovy` script to handle math letters in any unit, not only HELP
 
 ## Update 126_cs0 (2024-11-15)
 
