@@ -1,10 +1,11 @@
 # OmegaT (v5.7.3) customization
 
-## Update 131_cs0 (2025-01-15)
+## Update 131_cs0 (2025-01-16)
 
 * Script: Updated `checkOMTversion.groovy` to close the project after prompt to the user
 * Script: Updated `pisa25math.groovy` script to handle math letters HELP and some Math units (not just any XML file)
 * Script: Updated `checkOMTversion.groovy` to removed support for OmegaT 5.7.2 -- time to upgrade!
+* Script: Updated `write_source_target.groovy` (both versions) to disable GUI dialog in CLI mode and run only on COMPILE in CLI mode
 
 ## Update 130_cs0 (2024-12-13)
 
