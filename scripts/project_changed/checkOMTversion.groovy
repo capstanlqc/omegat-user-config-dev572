@@ -19,8 +19,8 @@ import static org.omegat.util.Platform.*
 
 reqVersion = "5.7.3"
 // 57b1bb571 was used for Windows 5.7.3, e363cb094 was used for Mac 5.7.3
-allowedRevisions = ["57b1bb571", "e363cb094", "1d012c5c9", "5ffdae7cb"]
-
+// 911305e31 is for 5.7.4_0_Beta (both Windows and Mac) -- internal version for testing
+allowedRevisions = ["57b1bb571", "e363cb094", "911305e31"]
 
 winURL="https://cat.capstan.be/OmegaT/exe/OmegaT_${reqVersion}_Windows_64_Signed.exe"
 macURL="https://cat.capstan.be/OmegaT/exe/OmegaT_${reqVersion}_Mac.zip"
