@@ -1,12 +1,10 @@
 /* :name = Update Customisation Bundle :description =
  *  Update OmegaT customisation from a remote repository
  *
- * @author:  Kos Ivantsov
- * @date:    2020-09-27
- * @review:  Lev Abashkin
- * @review:  Manuel Souto Pico
- * @version: 0.5.6
- * @latest:  2024-04-06
+ * @author:  Kos Ivantsov      @date 2019-04-01 → v.0.0.1
+ * @review:  Lev Abashkin      @date 2020-09-27 → v.0.5.1
+ * @review:  Gergely Zayzon    @date 2024-23-23 → v.0.5.6
+ * @review:  Manuel Souto Pico @date 2025-01-16 → v.0.5.6
  *
  */
 
