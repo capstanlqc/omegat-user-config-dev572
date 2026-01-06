@@ -1,5 +1,14 @@
 # OmegaT (v5.7.3) customization
 
+## Update 132_cs0 (2026-01-05)
+
+* Config: Updated `omegat.prefs` with custom tags for EQLS 2026.
+* Script: Updated `write_project2tsv.groovy` to fix bug with handling ste.getDuplicate() as string (class org.omegat.core.data.SourceTextEntry$DUPLICATE')
+* Script: Added `utils_plunet_statsCSV.groovy`: Create Plunet Match Statistics in CSV
+* Script: Updated `scripts/project_changed/checkOMTversion.groovy` to improve the message to user
+* Script: Removed `scripts/project_changed/utils_rename_project.groovy` which was buggy and not used
+* Script: Updated `scripts/project_changed/writeTMX4batch.groovy` to include support for PO files
+
 ## Update 131_cs0 (2025-01-16)
 
 * Script: Updated `checkOMTversion.groovy` to close the project after prompt to the user
