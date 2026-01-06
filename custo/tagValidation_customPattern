@@ -50,4 +50,4 @@
 
 | # EQLS 2026
 
-(?<eqls>\[(INCENTIVE TYPE/AMOUNT|Email address)\])
+\[(INCENTIVE TYPE/AMOUNT|Email address)\]
