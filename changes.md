@@ -1,8 +1,9 @@
 # OmegaT (v5.7.3) customization
 
-## Update 133_00p (2026-02-13) 
+## Update 133_csp (2026-02-13) 
 
 * Plugin: Added `TmxCommentsProvider-1.2.jar` to show T&A notes in the Comments pane.
+* Script: Fixed typo (`<html<center`) in customization script.
 
 ## Update 132_cs0 (2026-01-05)
 
