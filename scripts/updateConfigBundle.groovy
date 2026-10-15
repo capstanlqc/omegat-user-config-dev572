@@ -5,6 +5,7 @@
  * @review:  Lev Abashkin      @date 2020-09-27 → v.0.5.1
  * @review:  Gergely Zayzon    @date 2024-23-23 → v.0.5.6
  * @review:  Manuel Souto Pico @date 2025-01-16 → v.0.5.6
+ * @review:  Kos Ivantsov      @date 2025-05-29 → v.0.5.7
  *
  */
 
@@ -24,6 +25,7 @@
  *          0.5.4: Update autotext merging logic
  *          0.5.5: Added hack to run the full customization each time (only to be in the version that does not autoLaunch)
  *          0.5.6: Fixed encoding issue in Windows 11
+ *          0.5.7: Disable running on non-cApStAn builds of OmegaT
  *
  */
 
@@ -68,6 +70,15 @@ String.metaClass.confirm = { ->
 
 String.metaClass.alert = { ->
     showMessageDialog null, delegate, title, INFORMATION_MESSAGE
+}
+
+omtVendor = Preferences.getPreference("omegat_vendor")
+if ((!omtVendor) || (omtVendor != "cApStAn")) {
+    message = "cApStAn customization cannot be installed for this version of OmegaT"
+    title = "Customisation Update"
+    console.print(message)
+    message.alert()
+    return
 }
 
 def projectAlert

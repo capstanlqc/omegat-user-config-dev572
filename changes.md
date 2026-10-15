@@ -1,5 +1,13 @@
 # OmegaT (v5.7.3) customization
 
+## Update 134_csp (2026-10-15) 
+
+* Plugin: Added `omegat-plugin-workflow-1.7.1.jar` to interact with workflows.
+* Plugin: Updated `omegat-plugin-credentialsManager-3.1-obfuscated.jar` to streamline team project authentication
+* Script: New `check_rules_CSV.groovy` with more checks and CSV output.
+* Script: Updated `scripts/project_changed/checkOMTversion.groovy` to run only for cApStAn builds of OmegaT in version 5.7.4
+* Script: Updated `scripts/updateConfigBundle.groovy` to disable running on non-cApStAn builds of OmegaT
+
 ## Update 133_csp (2026-04-30) 
 
 * Plugin: Added `omegat-plugin-credentialsManager-2.1.jar` to import credentials files.
