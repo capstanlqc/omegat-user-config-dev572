@@ -1,5 +1,9 @@
 # OmegaT (v5.7.3) customization
 
+## Update 135_csp (2026-10-16)
+
+* Config: Added omegat vendor property to preferences.
+
 ## Update 134_csp (2026-10-15) 
 
 * Plugin: Added `omegat-plugin-workflow-1.7.1.jar` to interact with workflows.
