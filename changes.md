@@ -1,5 +1,9 @@
 # OmegaT (v5.7.3) customization
 
+## Update 136_csp ()
+
+* Plugin: Updated Credentials Manager plugin (to v.3.3)
+
 ## Update 135_csp (2026-10-16)
 
 * Config: Added omegat vendor property to preferences.
