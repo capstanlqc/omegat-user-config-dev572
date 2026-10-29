@@ -3,6 +3,7 @@
 ## Update 136_csp ()
 
 * Plugin: Updated Credentials Manager plugin (to v.3.3)
+* Plugin: Updated TMX Comment Provider (T&A Notes) plugin (to v.1.3)
 
 ## Update 135_csp (2026-10-16)
 
